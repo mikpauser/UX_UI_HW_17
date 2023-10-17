@@ -1,0 +1,53 @@
+.inline-block {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    gap: 10px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Inria Serif', serif;
+    color:#323B4C;
+    word-wrap: break-word;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+.tabs {
+    position: relative;
+    column-gap: 96px;
+    width: auto 736px;
+    height: auto 43px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    left: 582px;
+}
+
+.logo {
+    justify-content: flex-start;
+    width: 23% 404.109px;
+    height: 306.629px;
+    padding: 1%;
+}
+   
+ul {
+    width: 50%;
+    display: inline-flex;
+    width: 1318px; 
+    height: 178px; 
+    flex-shrink: 0;
+    border-bottom: 5px solid var(--Navy, #323B4C);
+    margin-left: auto;
+}
+
+body {
+    margin-right: 60px;
+}
+
+.heroImg {
+
+}
