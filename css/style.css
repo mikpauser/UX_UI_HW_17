@@ -28,7 +28,7 @@ nav {
     border-width: 0px 0px 5px 0px;
     width: 1318px;
     height: 178px;
-    position: static;
+    position: absolute;
     left: 344px;
     top: 0px;
 }
@@ -93,6 +93,7 @@ ul {
     overflow: visible;
     flex-shrink: 0;
     position: relative;
+    float: right;
 }
 
 
@@ -102,7 +103,7 @@ ul {
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    margin: 119px;
+    padding: 10px;
     inset: 0;
 }
 
@@ -152,7 +153,6 @@ ul {
         align-items: flex-start;
         display: inline-flex;
         left: 237px;
-        top: 1989px;
 }
 
 .project02-content {
@@ -170,7 +170,6 @@ ul {
     position: absolute;
     left: 207.83px;
     top: 42px;
-    box-shadow: 10px 10px 10px 0px rgba(31, 44, 61, 0.25);
     transform-origin: 0 0;
     transform: rotate(17deg) scale(1, 1);
 }
@@ -181,7 +180,6 @@ ul {
     position: absolute;
     left: 937.83px;
     top: 42px;
-    box-shadow: 10px 10px 10px 0px rgba(31, 44, 61, 0.25);
     transform-origin: 0 0;
     transform: rotate(17deg) scale(1, 1);
 }
@@ -193,7 +191,6 @@ ul {
     left: 566.22px;
     top: 42px;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 0px rgba(31, 44, 61, 0.25);
     transform-origin: 0 0;
     transform: rotate(17deg) scale(1, 1);
 }
@@ -219,7 +216,7 @@ ul {
     top: 0px;
 }
 
-.placemap-notifications {
+.placemap-search {
     width: 311px;
     height: 633px;
     position: absolute;
@@ -235,6 +232,92 @@ ul {
     top: 177px;
 }
 
-<div style="width: 100%; height: 100%; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-<div class= "default_content" style="width: 977px; height: 950px; position: relative">
-<div style="width: 1247px; height: 670px; background: #A199AF; border-radius: 5px"></div>
+.placemap-notifications {
+    width: 314px;
+    height: 633px;
+    position: absolute;
+    left: 467px;
+    top: -140px;
+}
+
+footer {
+    background: var(--blue, #363b67);
+    justify-content: endf;
+    width: cover;
+    height: 670px;
+    position: relative;
+}
+
+.footer-background {
+    display: inline-flex;
+    align-content: flex-end;
+    padding: 100px;
+    height: 670px;
+    position: absolute;
+}
+
+.tag {
+    box-sizing: border-box;
+    position: absolute;
+    width: 316px;
+    height: 133px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.footer-text-a{
+    color: var(--Baby-Pink, #F8BECC);
+    text-align: center;
+    font: 400 18px "Inria Sans", sans-serif;
+    line-height: normal;
+    letter-spacing: 7.02px;
+}
+
+.footer-text-b {
+    color: var(--baby-pink, #f8becc);
+    text-align: center;
+    font: 400 18px "Inria Sans", sans-serif;
+    line-height: normal;
+    letter-spacing: 7.02px;
+    display: flex;
+}
+
+
+.left_center{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left center;
+    padding: 35px;
+}
+
+.instagram {
+    position: absolute;
+    left: 334px;
+    top: 67px;
+    width: 10%;
+}
+
+.dribble {
+    position: absolute;
+    left: 481px;
+    top: 67px;
+    width: 10%;
+}
+
+.linkedin {
+    position: absolute;
+    left: 628px;
+    top: 67px;
+    width: 10%;
+}
+
+.footer-Signature {
+    position: absolute;
+    width: 291px;
+    height: 79px;
+    flex-shrink: 0;
+    left: 381px;
+    top: 208px;
+    overflow: visible;
+}
